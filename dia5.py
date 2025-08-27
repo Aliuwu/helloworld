@@ -7,7 +7,7 @@ st.header("st.write")
 
 # Ejemplo 1
 
-st.write("Hello, *World!* :sunglasses:")
+st.write("Hello, **World!** :sunglasses:")
 
 # Ejemplo 2
 st.write(1234)
@@ -33,5 +33,6 @@ c = alt.Chart(df2).mark_circle().encode(
     x='a', y='b', size='c', color='c', tooltip=['a','b','c']
 )
 st.write(c)
+
 
 
